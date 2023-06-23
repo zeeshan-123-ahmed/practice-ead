@@ -22,6 +22,7 @@ class Counter extends Component {
         this.setState({ count: 0})
     }
 
+    
   render() {
     const {count} = this.state;
     return (
